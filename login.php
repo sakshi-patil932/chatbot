@@ -52,6 +52,10 @@ if(isset($_POST["loginname"])&& $_POST["password"])
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   </head>
     <body>
+		<header>
+			<ul>
+				<li><a href="/sql&pos=0&db=chatbot&table=user"></a></li>
+</ul>
     <div class="container" style="margin-top:40px">
 		<div class="row">
 			<div class="col-sm-6 col-md-4 col-md-offset-4">
